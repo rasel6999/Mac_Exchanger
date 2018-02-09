@@ -1,0 +1,54 @@
+<!DOCTYPE resources
+    [<!ENTITY appname "Mac Exchange">
+        <!ENTITY author "RDx RaSeL">
+        <!ENTITY site_url "http://exchange.macwap.com/">
+        <!ENTITY email "admin@macwap.com">
+        <!ENTITY phone "+96898587040">
+        ]>
+
+
+
+<resources>
+    <string name="app_name">&appname;</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">More Menu</string>
+
+
+    <string name="lang_exchange">Exchange</string>
+    <string name="lang_testimonials">Testimonials</string>
+    <string name="lang_affiliate">Affiliate</string>
+    <string name="lang_chat_with_oparetor">Live chat </string>
+    <string name="lang_bitcoin">Free Bitcoin </string>
+    <string name="lang_dogicoin">Free Dogicoin</string>
+    <string name="lang_signup">Sign Up</string>
+    <string name="lang_signin">Sign In</string>
+    <string name="lang_profile">Profile</string>
+    <string name="lang_logout">Logout</string>
+    <string name="lang_home">Home</string>
+    <string name="lang_admin">Admin Mode</string>
+    <string name="lang_mchat">Manage Chat </string>
+
+    <string name="lang_frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="lang_terms_of_services">Terms Of Services</string>
+    <string name="lang_privacy_policy">Privacy Policy  </string>
+    <string name="lang_about">About</string>
+    <string name="lang_Contact">Contact </string>
+    <string name="title_activity_fullwebpage">Fullwebpage</string>
+    <string name="title_activity_settings">More Menu</string>
+
+    <string name="site_url">&site_url;</string>
+    <string name="url_testimonials">&site_url;testimonials</string>
+    <string name="url_affiliate">&site_url;affiliate</string>
+    <string name="url_about">&site_url;page/about</string>
+    <string name="url_faq">&site_url;faq</string>
+    <string name="url_tos">&site_url;page/terms-of-services</string>
+    <string name="url_policy">&site_url;page/privacy-policy</string>
+    <string name="url_contact">&site_url;contact</string>
+    <string name="url_bangla">&site_url;index.php?lang=bangla</string>
+    <string name="url_english">&site_url;index.php?lang=english</string>
+
+
+</resources>

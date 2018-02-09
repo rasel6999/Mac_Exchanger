@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/home"
+            android:title="@string/lang_home"/>
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/wechat"
+            android:title="@string/lang_chat_with_oparetor" />
+
+        <item
+            android:id="@+id/freebitcoin"
+            android:icon="@drawable/bitcoin"
+            android:title="@string/lang_bitcoin" />
+        <item
+        android:id="@+id/freedogicoin"
+        android:icon="@drawable/dogicoin"
+        android:title="@string/lang_dogicoin" />
+        <item
+        android:id="@+id/admin"
+            android:visible="false"
+        android:icon="@drawable/admin"
+        android:title="@string/lang_admin" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/mchat"
+            android:icon="@drawable/mchat"
+            android:title="@string/lang_mchat" />
+
+
+
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings"
+                android:title="@string/action_settings" />
+
+            <item
+                android:visible="false"
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="@string/lang_logout" />
+    </group>
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.macwap.exchange.macexchange.WebViewFull"
+ >
+
+    <ImageButton
+        android:tag="close"
+        android:onClick="clicid"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:tint="@color/colorWhite"
+        app:srcCompat="@drawable/back"
+        android:background="@color/colorx"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:elevation="1dp"
+        />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+
+
+
+
+        <com.macwap.exchange.macexchange.AdvancedWebView
+            android:id="@+id/myWebView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            />
+
+
+
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ProgressBar android:id="@+id/pB1"
+        style="?android:attr/progressBarStyleInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        >
+    </ProgressBar>
+</RelativeLayout>
